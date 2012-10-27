@@ -1,4 +1,4 @@
-package cs.easv.b2;
+package cs.easv.tc1;
 
 /**
  * This is the Main class of 'TestProject1', which serves the purpose of testing
