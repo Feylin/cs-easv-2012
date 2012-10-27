@@ -1,5 +1,12 @@
 package cs.easv.b2;
 
+/**
+ * This is the Main class of 'TestProject1', which serves the purpose of testing
+ * the possibilities of having several projects in one repo on GitHub.com
+ * 
+ * @author KHR
+ * 
+ */
 public class MainClass {
 
 	public static void main( String[] args ){
