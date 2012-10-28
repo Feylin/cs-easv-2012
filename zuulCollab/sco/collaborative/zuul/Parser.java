@@ -24,7 +24,7 @@ public class Parser {
 	 */
 	public Parser() {
 		commands = new CommandWords();
-		reader = new Scanner( System.in ); //,"iso-8859-1" );
+		reader = new Scanner( System.in ); //,"iso-8859-1" ); // Uncomment if it's not working with your IDE.
 	}
 
 	/**
@@ -42,10 +42,10 @@ public class Parser {
 		// Parse the input into two strings: word1 is the 'commandWord'
 		// word2 is the additional information.
 		Scanner tokenizer = new Scanner( inputLine );
-		if( tokenizer.hasNext() ){
-			word1 = tokenizer.next();
-			if( tokenizer.hasNext() ){
-				word2 = tokenizer.nextLine();
+		if( tokenizer.hasNext() ){		// If there's any input..
+			word1 = tokenizer.next();	// ..set word1 to be the first word of the input..
+			if( tokenizer.hasNext() ){			// ..and if there's even more..
+				word2 = tokenizer.nextLine();	// ..set word2 to be the rest of the line.
 			}
 		}
 		tokenizer.close();

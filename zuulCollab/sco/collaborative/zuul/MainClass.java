@@ -5,7 +5,7 @@ public class MainClass {
 	public static void main( String[] args ){
 
 		/*
-		 * Added this comment to conflict with the other branch at merge!
+		 * Resolved the conflict with a 3rd option
 		 */
 		new Game().play();
 

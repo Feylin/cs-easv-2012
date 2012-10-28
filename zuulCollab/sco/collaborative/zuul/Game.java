@@ -52,23 +52,30 @@ public class Game {
 		b3 = new Room( "i b3." );
 
 		/* Set the exits */
+		// Bar
 		bar.setExit( "ud", sal );
 
+		// Sal
 		sal.setExit( "op", kantine );
 		sal.setExit( "til baren", bar );
 
+		// Reception
 		reception.setExit( "tilbage", kantine );
 
+		// Kantine
 		kantine.setExit( "til receptionen", reception );
 		kantine.setExit( "til korridoren", korridor );
 		kantine.setExit( "ned", sal );
 
+		// Korridor
 		korridor.setExit( "til b2", b2 );
 		korridor.setExit( "til b3", b3 );
 		korridor.setExit( "til kantinen", kantine );
 
+		// b3
 		b3.setExit( "til korridoren", korridor );
 
+		// b2
 		b2.setExit( "til korridoren", korridor );
 	}
 
