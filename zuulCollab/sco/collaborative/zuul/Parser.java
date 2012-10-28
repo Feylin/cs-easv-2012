@@ -24,7 +24,7 @@ public class Parser {
 	 */
 	public Parser() {
 		commands = new CommandWords();
-		reader = new Scanner( System.in ); //,"iso-8859-1" );
+		reader = new Scanner( System.in ); //,"iso-8859-1" ); // Uncomment if it's not working with your IDE.
 	}
 
 	/**
